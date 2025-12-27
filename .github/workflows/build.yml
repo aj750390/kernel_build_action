@@ -15,7 +15,7 @@ jobs:
       - name: Build Kernel
         uses: dabao1955/kernel_build_action@main
         with:
-          kernel-url: https://github.com/itomazx/android_kernel_xiaomi_vayu
+          kernel-url: https://github.com/itomazx/android_kernel_xiaomi_vayu.git
           kernel-dir: msm-4.14
           kernel-branch: misc
           config: vayu_defconfig
