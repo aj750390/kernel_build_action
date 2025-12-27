@@ -17,6 +17,7 @@ jobs:
         with:
           kernel-url: https://github.com/itomazx/android_kernel_xiaomi_vayu
           kernel-branch: misc
+          kernel-dir: .
           config: vayu_defconfig
           arch: arm64
           aosp-gcc: true
