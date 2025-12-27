@@ -18,7 +18,7 @@ jobs:
           kernel-url: https://github.com/LuffyTaro008/android_kernel_xiaomi_vayu
           kernel-dir: msm-4.19
           kernel-branch: staging
-          config: vayu_user_defconfig
+          config: vendor/vayu_user_defconfig
           arch: arm64
           aosp-gcc: true
           aosp-clang: true
