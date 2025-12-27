@@ -16,8 +16,8 @@ jobs:
         uses: dabao1955/kernel_build_action@main
         with:
           kernel-url: https://github.com/itomazx/android_kernel_xiaomi_vayu
+          kernel-dir: 
           kernel-branch: misc
-          kernel-dir: .
           config: vayu_defconfig
           arch: arm64
           aosp-gcc: true
